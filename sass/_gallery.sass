@@ -1,0 +1,25 @@
+.gallery
+    margin-bottom: 128px
+
+.gallery__title
+    color: #323232
+    font-size: 36px
+    font-family: 'Nunito'
+    font-weight: 600
+    margin-bottom: 45px
+
+.gallery__img
+    display: grid
+    grid-template-columns: repeat(4, 1fr)
+    gap: 23px
+    @include lg
+        grid-template-columns: repeat(2, 1fr)
+        gap: 15px
+
+.house_img
+    max-width: 292px
+    width: 100%
+    max-height: 406px
+    height: 100%
+    @include lg
+        max-width: 100%
